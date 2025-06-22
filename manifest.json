@@ -1,21 +1,20 @@
 {
   "name": "Yuvraj's Portfolio",
   "short_name": "Yuvraj",
-  "start_url": "/Yuvraj/",
+  "start_url": "/Yuvraj/index.html",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#4f46e5",
-"icons": [
-  {
-    "src": "profile-192x192.png",
-    "type": "image/png",
-    "sizes": "192x192"
-  },
-  {
-    "src": "profile.ico",
-    "type": "image/x-icon",
-    "sizes": "64x64"
-  }
-]
-
+  "icons": [
+    {
+      "src": "/Yuvraj/profile-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/Yuvraj/profile.ico",
+      "type": "image/x-icon",
+      "sizes": "64x64"
+    }
+  ]
 }
