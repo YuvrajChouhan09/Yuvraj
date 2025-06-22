@@ -1,0 +1,15 @@
+{
+  "name": "Yuvraj's Portfolio",
+  "short_name": "Yuvraj",
+  "start_url": "/yuvraj/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "assets/profile.ico",
+      "type": "image/ico",
+      "sizes": "192x192"
+    }
+  ]
+}
