@@ -5,11 +5,17 @@
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#4f46e5",
-  "icons": [
-    {
-      "src": "assets/profile.ico",
-      "type": "image/ico",
-      "sizes": "192x192"
-    }
-  ]
+"icons": [
+  {
+    "src": "profile-192x192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "profile.ico",
+    "type": "image/x-icon",
+    "sizes": "64x64"
+  }
+]
+
 }
