@@ -80,4 +80,10 @@ games.forEach(async (game) => {
       }
     });
   });
+  const menuToggle = document.getElementById('menuToggle');
+  const navWrapper = document.getElementById('navWrapper');
+
+  menuToggle.addEventListener('click', () => {
+    navWrapper.classList.toggle('open');
+  });
 
