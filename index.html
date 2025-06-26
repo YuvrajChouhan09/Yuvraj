@@ -68,10 +68,18 @@
 </head>
 
 <body>
-  <header>
-    <img src="profile.webp" alt="error" />
+  <header class="site-header">
+  <img src="profile.webp" alt="Logo" class="logo">
+
+  <!-- Hamburger -->
+  <button class="menu-toggle" id="menuToggle">
+    <span class="material-symbols-outlined">menu</span>
+  </button>
+
+  <!-- Navigation + dark mode inside -->
+  <div class="nav-wrapper" id="navWrapper">
     <nav>
-      <ul>
+      <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#aboutme">About Me</a></li>
         <li><a href="#contact-section">Contact</a></li>
@@ -82,7 +90,9 @@
       <span class="toggle-icon" id="toggleIcon">light_mode</span>
       <span class="toggle-text" id="toggleText">Light Mode</span>
     </div>
-  </header>
+  </div>
+</header>
+
   <main class="container-main">
     
     <!-- HERO -->
